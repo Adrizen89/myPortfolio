@@ -33,7 +33,7 @@ cardTitle(BuildContext, context, txtTitle, clr, clrTitle) {
                         TextSpan(
                           text: txtTitle,
                           style: TextStyle(
-                              color: black,
+                              color: clrTitle,
                               fontSize: w * 0.03,
                               fontWeight: FontWeight.bold),
                         ),

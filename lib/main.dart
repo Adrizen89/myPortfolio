@@ -6,7 +6,9 @@ void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
+
   Widget build(BuildContext context) {
+    
     return MaterialApp(
       theme: ThemeData(
         textTheme: GoogleFonts.robotoSerifTextTheme(
@@ -14,7 +16,7 @@ class MyApp extends StatelessWidget {
         ),),
       debugShowCheckedModeBanner: false,
       title: 'Adrien Berard',
-      home: Wrapper()
+      home: Wrapper(),
     );
   }
 }

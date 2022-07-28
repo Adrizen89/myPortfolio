@@ -6,7 +6,7 @@ import 'package:myportfolio/uiKit/constants/colors.dart';
 import 'package:myportfolio/uiKit/constants/images.dart';
 import 'package:myportfolio/uiKit/constants/text.dart';
 
-works(BuildContext, context){
+works(BuildContext, context, setState){
   var w = MediaQuery.of(context).size.width;
   var h = MediaQuery.of(context).size.height;
   return Container(
@@ -24,18 +24,18 @@ works(BuildContext, context){
             children: [
               Row(
                 children: [
-                  cardWork(BuildContext, context, work1),
-                  cardWork(BuildContext, context, work2),
-                  cardWork(BuildContext, context, work3),
-                  cardWork(BuildContext, context, work4),
+                  cardWork(BuildContext, context, work1, setState),
+                  cardWork(BuildContext, context, work2, setState),
+                  cardWork(BuildContext, context, work3, setState),
+                  cardWork(BuildContext, context, work4, setState),
                 ],
               ),
               Row(
                 children: [
-                  cardWork(BuildContext, context, work5),
-                  cardWork(BuildContext, context, work6),
-                  cardWork(BuildContext, context, work7),
-                  cardWork(BuildContext, context, work8),
+                  cardWork(BuildContext, context, work5, setState),
+                  cardWork(BuildContext, context, work6, setState),
+                  cardWork(BuildContext, context, work7, setState),
+                  cardWork(BuildContext, context, work8, setState),
                 ],
               )
             ],

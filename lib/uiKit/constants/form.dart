@@ -5,23 +5,12 @@ import 'package:myportfolio/uiKit/constants/colors.dart';
 
 var textInputDecoration = InputDecoration(
 
-  contentPadding: EdgeInsets.symmetric(horizontal: 40),
   fillColor: green.withOpacity(0.3),
-  filled: true,
+  filled: false,
 
   errorBorder: OutlineInputBorder(
-      borderSide: BorderSide(color: Colors.red, width: 2.0),
-      borderRadius: BorderRadius.circular(40)),
+      borderSide: BorderSide(color: Colors.red, width: 2.0),),
 
   focusedErrorBorder: UnderlineInputBorder(
-      borderSide: BorderSide(color: Colors.red, width: 2.0),
-      borderRadius: BorderRadius.circular(40)),
-
-  enabledBorder: OutlineInputBorder(
-      borderSide: BorderSide(color: Colors.blue.withOpacity(0.5), width: 2.0),
-      borderRadius: BorderRadius.circular(40)),
-
-  focusedBorder: OutlineInputBorder(
-      borderSide: BorderSide(color: Colors.blue, width: 2.0),
-      borderRadius: BorderRadius.circular(40)),
+      borderSide: BorderSide(color: Colors.red, width: 2.0),)
 );

@@ -30,5 +30,23 @@ btnDownload(BuildContext, context){
 btnForm(BuildContext, context){
   var w = MediaQuery.of(context).size.width;
   var h = MediaQuery.of(context).size.height;
-  return ;
+  return SizedBox(
+    width: w*0.15,
+    height: h*0.06,
+    child: ElevatedButton.icon(
+    onPressed: () {},
+    style: ButtonStyle(
+      backgroundColor: MaterialStateProperty.resolveWith<Color>(
+                (Set<MaterialState> states) {
+              if (states.contains(MaterialState.pressed)) {
+                return green;
+              }
+              return black; // Use the component's default.
+            }
+        ),
+    ),
+    icon: fleche,
+    label: Text(form_btn), 
+  ),
+  );
 }

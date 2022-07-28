@@ -28,18 +28,18 @@ String p_2 = "fnjf fhezfhuifi uefezu fugfui egf zefg zefg ezfgf f!";
 //Mes Services
 String p_3 = "ehfieurf ifger fg zfegfefzfu izugfzfg fuz gfuiezgff !";
 
-String s_1 = "  ";
-String s_2 = "  ";
-String s_3 = "  ";
-String s_4 = "  ";
+String s_1 = "Design";
+String s_2 = "Gestion de Projet";
+String s_3 = "Développement";
+String s_4 = "Maintenance";
 
 //Contact
-String p_4_name = "  ";
-String p_4_email = "  ";
-String p_4_tel = "  ";
+String p_4_name = "Adrien Berard";
+String p_4_email = "adrienberard@hotmail.fr";
+String p_4_tel = "06 44 38 95 54";
 
-String form_nom = "";
-String form_prenom = "";
-String form_email = "";
-String form_msg = "";
-String form_btn = "";
+String form_nom = "Votre nom";
+String form_prenom = "Votre prénom";
+String form_email = "Votre email";
+String form_msg = "Votre message";
+String form_btn = "Envoyer";
